@@ -65,6 +65,7 @@ $(document).ready(function() {
           `
         })
         $('#tasks').html(template)
+        edit = false
       }
     })
   }
