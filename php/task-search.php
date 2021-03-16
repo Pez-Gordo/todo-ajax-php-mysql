@@ -8,7 +8,7 @@
     $query = "SELECT * FROM task WHERE name LIKE '$search%'";
     $result = mysqli_query($connection, $query);
     if(!$result) {
-      die('Query Error', mysqli_error($connection));
+      die('Query Error' . mysqli_error($connection));
     }
 
     $json = array();
