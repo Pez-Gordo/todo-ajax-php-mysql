@@ -55,7 +55,6 @@ $(document).ready(function() {
         tasks.forEach(task => {
           template += `
             <tr taskId="${task.id}">
-              <td>${task.id}</td>
               <td><a href="#" class="task-item">${task.name}</a></td>
               <td>${task.description}</td>
               <td>
